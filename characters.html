@@ -1,0 +1,76 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="characters">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html" class="ui-btn-active ui-state-persist">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Characters</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more characters needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Jonas</li>
+					<li data-theme="d">The protagonist of the story</li>
+					<li data-theme="c">Jonas lives a normal life in a utopian community, he has a mother and father, and a sister Lily, he is very content with his life but that all changes when he turns 12</li>
+					<li data-theme="d">He receives the job to acquire all the suppressed memories of the community from a man entitled "The Giver"</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Giver</li>
+					<li data-theme="d">He is the most important person in the community as he holds all the memories from the past</li>
+					<li data-theme="c">He can also see color, and feel pain unlike anyone else in the community</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Lily</li>
+					<li data-theme="d">Jonas's sister, she is younger than Jonas, and is a very kind and compassionate girl</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Gabriel</li>
+					<li data-theme="d">A baby who is brought home by Jonas' father for extra care</li>
+					<li data-theme="c">Jonas is not quite up to par with the other babies in the community and is scheduled to be released, or killed</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Jonas' parents</li>
+					<li data-theme="d">Jonas' father is a caregiver, which means he cares for the infants in the community before they are assigned a family</li>
+					<li data-theme="c">Jonas' mother is a Judge in the community</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Asher</li>
+					<li data-theme="d">Jonas' best friend, he is very carefree and an enjoyable person. He receives the job as assistant director of recreation</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Giver</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
